@@ -4,62 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Room of Secrets</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0b0b0b;
-      color: #e5e5e5;
-      line-height: 1.7;
-      padding: 40px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #d43f3f;
-      font-weight: 700;
-      border-bottom: 1px solid #d43f3f;
-      padding-bottom: 5px;
-    }
-    h3 {
-      color: #ffffff;
-      font-weight: 600;
-      margin-top: 30px;
-    }
-    code {
-      background: #1e1e1e;
-      padding: 6px 10px;
-      border-radius: 6px;
-      color: #9cdcfe;
-      display: block;
-      margin: 10px 0;
-      font-family: 'Consolas', monospace;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px 0;
-      font-size: 15px;
-    }
-    th, td {
-      border: 1px solid #444;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #1e1e1e;
-      color: #ffffff;
-    }
-    blockquote {
-      background: #1e1e1e;
-      border-left: 4px solid #d43f3f;
-      padding: 10px 15px;
-      margin: 15px 0;
-      color: #ccc;
-    }
-    ul {
-      margin-left: 20px;
-    }
-  </style>
 </head>
 <body>
 
