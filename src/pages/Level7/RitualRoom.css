@@ -1,0 +1,34 @@
+.ritual-room-bg1{
+    background: url('../../assets/Images/RitualRoom.webp');
+    background-size: cover;
+    height: 100vh;
+}
+.ritual-room-bg2{
+    background: url('../../assets/Images/RitualRoom2.webp');
+    background-size: cover;
+    height: 100vh;
+}
+.ritual-room-bg3{
+    background: url('../../assets/Images/RitualRoom3.webp');
+    background-size: cover;
+    height: 100vh;
+}
+.txt{
+    font-size: 1.2rem;
+    /* color: rgb(141, 124, 207); */
+    backdrop-filter: blur(7px);
+    padding: 3rem;
+    padding-top: 7rem;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+}
+.ritual-room-table{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top:50%;
+    left:30%;
+    cursor: pointer;
+}

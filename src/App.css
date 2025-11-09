@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&family=Zeyada&display=swap');
+
+@font-face {
+  font-family: 'Plague';
+  src: url('./assets/DK\ Plague\ Master.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bat';
+  src: url('./assets/Nightcore\ Demo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Blood';
+  src: url('./assets/BloodLust.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Script';
+  src: url('./assets/Tell\ us\,\ Pangaia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'Blood', sans-serif;
+  color: white;
+  font-size: 1.4rem;
+}
+
+p{
+  text-shadow: 2px 2px 3px black;
+}
+
+.title{
+  font-size: 8rem;
+  font-family: "Plague";
+  letter-spacing: 6px;
+  color: white;
+  text-align: center;
+  text-shadow: 10px 5px 20px black;
+  margin-bottom: 2rem;
+}
+
+.sub-title{
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+  color: #ff0000b7;
+  text-shadow: 2px 2px 2px rgb(103, 4, 4);
+  font-family: "Bat";
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px black;
+}
+
+button:hover{
+  color:#d60101;
+}
+
+/* .start{
+  background: url('https://images.hindustantimes.com/img/2022/10/30/1600x900/haunted-house-g5d638e7bd_1920_1667132286906_1667132303445_1667132303445.jpg');
+} */
+.start{
+  background: url('./assets/Images/bgmain1.webp');
+}
+
+.level1{
+  background: url(./assets/bgLvl1.webp);
+}
+.level2{
+  background: url(./assets/bgLvl2.webp);
+}
+.level3{
+  background: url(./assets/bgLvl3.webp);
+}
+.level4{
+  background: url(./assets/Images/doortogame.webp);
+}
+.level6{
+  background: url(./assets/level6.webp);
+}
+.p1{
+  background: url(./assets/p1.webp);
+}
+.p2{
+  background: url(./assets/p2.webp);
+}
+.p3{
+  background: url(./assets/p3.webp);
+}
+.p4{
+  background: url(./assets/p4.webp);
+}
+.warning{
+  background: url(./assets/warning.webp);
+}
+.lift{
+  background: url(./assets/liftInside.webp);
+}
+.houseOnFire{
+  background: url(./assets/houseOnFire.webp);
+}
+.morning{
+  background: url(./assets/morning.webp);
+}
+.season2{
+  background: url(./assets/season2.webp);
+  animation: flicker3 5s infinite;
+}
+.final{
+  background: url(./assets/finalLvl/14.jpg);
+}
+.finala{
+  background: url(./assets/finalLvl/a.png) center;
+}
+.finalb{
+  background: url(./assets/finalLvl/b.png) center;
+  
+}
+.finalc{
+  background: url(./assets/finalLvl/c.png) center;
+}
+.finald{
+  background: url(./assets/finalLvl/d.png) center ;
+}
+.finale{
+  background: url(./assets/finalLvl/e.png) center ;
+}
+.finalf{
+  background: url(./assets/finalLvl/f.png);
+}
+.finalg{
+  background: url(./assets/finalLvl/g.png) -50px;
+}
+.finalh{
+  background: url(./assets/finalLvl/h.png) center;
+}
+.finali{
+  background: url(./assets/finalLvl/i.png) -120px;
+}
+.finalj{
+  background: url(./assets/finalLvl/j.png);
+  width: 100vw !important;
+  height: 100% !important;
+  background-size: contain !important;
+  background-position: center center;
+}
+.finalk{
+  background: url(./assets/finalLvl/k.png);
+  width: 100vw !important;
+  height: 100% !important;
+  background-size: contain !important;
+  background-position: center center;
+}
+.finall{
+  background: url(./assets/finalLvl/l.png);
+  width: 100vw !important;
+  height: 100% !important;
+  background-size: contain !important;
+  background-position: center center;
+}
+
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat !important;
+}
+
+.desc{
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 2px #880808;
+}
+
+.typewriter-text {
+  opacity: 0;
+  transition: opacity 1s ease; /* You can adjust the duration and easing as needed */
+}
+
+.typewriter-text.typing {
+  opacity: 1;
+}
+
+.fade-in-panel2 {
+  opacity: 0.2;
+  transition: opacity 0.5s ease; /* Adjust the duration and easing as needed */
+}
+
+.fade-in-panel2.fade-in {
+  opacity: 1;
+}
+
+.imp{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.burntPaperText{
+  margin: 0;
+  position: absolute;
+  top: 15%;
+  padding: 0 7rem;
+  font-family: 'Script', cursive;
+  color: rgba(93, 58, 10, 0.574);
+  text-shadow: none;
+  font-size: 2rem;
+  /* font-weight: 600; */
+  letter-spacing: 1px;
+}
+
+input{
+ opacity: 0.7; 
+ border-bottom-right-radius: 70%;
+ color: #880808;
+}
+input::placeholder{
+  color: #880808;
+}
+label{
+  color: #ff0000b7;
+  text-shadow: none;
+}
+
+.ghost-img{
+  animation: flicker2 5s infinite;
+}
+@keyframes flicker2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.Toastify__toast-body > div:last-child{
+  color: #880808;
+  font-size: 1rem;
+}
+
+@keyframes flicker3 {
+  0% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  11.5%{
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  12%{
+    transform: translateY(-7px);
+    transform: translateX(-28px);
+  }
+  12.5%{
+    transform: translateY(13px);
+    transform: translateX(26px);
+  }
+  13%{
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateX(0px);
+    transform: translateY(0px);
+  }
+}
+
+.encrypted {
+  transform: scaleX(-1) scaleY(-1); 
+}
